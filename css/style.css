@@ -291,3 +291,13 @@
 .wrapper {
     display: flex;
 }
+
+.stats h2{
+    margin-top: 36px;
+    color: #034BFF;
+}
+
+.stats h1{
+    margin-top: 32px;
+    color: #034BFF;
+}
