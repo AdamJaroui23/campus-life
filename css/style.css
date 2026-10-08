@@ -390,7 +390,7 @@
     width: 130px;
     height: 130px;
     top: 250px;
-    left:-10px;
+    left: -10px;
     border-radius: 10%;
     transform: rotate(-4deg);
 }
@@ -444,4 +444,123 @@
     text-align: center;
     border-radius: 6px;
 
+}
+
+.journey {
+    background-color: #08111D;
+}
+
+.journey h2 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+.journey h5 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.timeline {
+    background: #08111D;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.step .number {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.step .icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+    font-size: 1.8rem;
+}
+
+.step .icon svg {
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+}
+
+.step .title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.step .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+}
+
+.step-1 .icon {
+    background: #3b82f6;
+}
+
+.step-2 .icon {
+    background: #3b82f6;
+}
+
+.step-3 .icon {
+    background: #22c55e;
+}
+
+.step-4 .icon {
+    background: #a855f7;
+}
+
+.step-5 .icon {
+    background: #3b82f6;
+}
+
+.step-6 .icon {
+    background: #84cc16;
+}
+
+.dots {
+    color: white;
+    font-size: 10px;
+    margin-top: 60px;
 }
