@@ -634,3 +634,23 @@
     padding-right: 40px;
     border-radius: 11px;
 }
+
+.Parole {
+    background-color: #F4F7FC;
+    display: flex;
+    gap: 250px;
+    height: 230px;
+}
+
+.arrows {
+    display: flex;
+    gap: 5px;
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 130px;
+}
+
+.yassin {
+    display: flex;
+    gap: 10px;
+}
