@@ -12,7 +12,6 @@
     font-weight: 800;
     font-size: 22px;
     text-decoration: none;
-    border: 3px solid #16a34a;
     padding: 4px 8px;
     white-space: nowrap;
 }
@@ -165,7 +164,7 @@
 
     padding: 16px 30px;
 
-    border-radius: 30px;
+    border-radius: 25px;
 
     white-space: nowrap;
 }
@@ -563,4 +562,75 @@
     color: white;
     font-size: 10px;
     margin-top: 60px;
+}
+
+.events {
+    display: flex;
+    gap: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blue-box {
+    background-color: #034BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+    width: 250px;
+}
+
+.button {
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 210px;
+    padding-left: 10px;
+}
+
+.button a{
+    text-align:start;
+    text-decoration: none;
+    color: #034BFF;
+}
+
+.etickets {
+    background-color: #F7F9F8;
+    border: 1px solid #DDE4F0;
+    height: 300px;
+}
+
+.img_etickets {
+    border-radius: 8px;
+    width: 250px;
+}
+
+.etickets p, .etickets a{
+    font-family: Inter, sans-serif;
+    margin-left: 15px;
+}
+
+.etickets a{
+    text-align:center;
+    text-decoration: none;
+    color: #034BFF;
+}
+
+.plus {
+    background-color: white;
+    border: 2px solid #034BFF;
+    margin-left: 7px;
+    width: 150px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 11px;
 }
